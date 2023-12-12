@@ -32,7 +32,7 @@ const Index4 = () => {
                     Welcome to LiveLEhood Habitat
                   </span>
                   <h1 className="wow fadeInDown" data-wow-delay=".5s">
-                    Explore Dream Tour &amp; Travels
+                    Towards better lifestyle
                   </h1>
                   <p className="wow fadeInUp" data-wow-delay=".6s">
                     Sit amet consectetur integer tincidunt sceleries nolesry
@@ -113,9 +113,9 @@ const Index4 = () => {
                 </div>
               </div>
 
-              <div className="big-text pt-100 wow fadeInDown">
+              {/* <div className="big-text pt-100 wow fadeInDown">
                 <img src="assets/images/bg/adventure.png" alt="Adventure" />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -128,7 +128,10 @@ const Index4 = () => {
             <div className="col-lg-6">
               <div className="section-title mb-55 wow fadeInLeft">
                 <span className="sub-title">What We Provide</span>
-                <h2>Most Funning Company Travel and Tours</h2>
+                <h2>
+                  LiveLEHood habitat is a Coexistic village where we give you
+                  HELL!
+                </h2>
               </div>
             </div>
             <div className="col-lg-6">
@@ -184,7 +187,7 @@ const Index4 = () => {
                 />
               </div>
               <div className="content">
-                <h6>Wadi Musa, Ma'an Governorate, Jordan</h6>
+                <h6>Health</h6>
               </div>
             </div>
             {/*=== Features Item ===*/}
@@ -196,7 +199,7 @@ const Index4 = () => {
                 />
               </div>
               <div className="content">
-                <h6>Tambon Ko Kut, จ.ตราด, Thailand</h6>
+                <h6>Environment</h6>
               </div>
             </div>
             {/*=== Features Item ===*/}
@@ -208,7 +211,7 @@ const Index4 = () => {
                 />
               </div>
               <div className="content">
-                <h6>Camper Trailer, New York</h6>
+                <h6>Learning</h6>
               </div>
             </div>
             {/*=== Features Item ===*/}
@@ -220,31 +223,7 @@ const Index4 = () => {
                 />
               </div>
               <div className="content">
-                <h6>Wadi Musa, Ma'an Governorate, Jordan</h6>
-              </div>
-            </div>
-            {/*=== Features Item ===*/}
-            <div className="single-features-item-three">
-              <div className="img-holder">
-                <img
-                  src="assets/images/features/feat-14.jpg"
-                  alt="Features Image"
-                />
-              </div>
-              <div className="content">
-                <h6>Forest Tent Camping, South Africa</h6>
-              </div>
-            </div>
-            {/*=== Features Item ===*/}
-            <div className="single-features-item-three">
-              <div className="img-holder">
-                <img
-                  src="assets/images/features/feat-12.jpg"
-                  alt="Features Image"
-                />
-              </div>
-              <div className="content">
-                <h6>Camper Trailer, New York</h6>
+                <h6>Lifestyle</h6>
               </div>
             </div>
           </Slider>
@@ -271,7 +250,9 @@ const Index4 = () => {
                 {/*=== Section Title ===*/}
                 <div className="section-title mb-45">
                   <span className="sub-title">Who We Are</span>
-                  <h2>Great Opportunity For Adventure &amp; Travels</h2>
+                  <h2>
+                    We create a community focused towards a better lifestyle
+                  </h2>
                 </div>
                 <div className="row">
                   <div className="col-md-6">
@@ -758,7 +739,7 @@ const Index4 = () => {
                 {/*=== Section Title ===*/}
                 <div className="section-title mb-45 wow fadeInDown">
                   <span className="sub-title">Why Choose Us</span>
-                  <h2>People Why Choose Our Travel Adventure</h2>
+                  <h2>Why People Choose LiveLehood Habitat</h2>
                 </div>
                 <div className="row">
                   <div className="col-md-6">

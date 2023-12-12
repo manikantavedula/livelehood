@@ -29,7 +29,7 @@ const DefaultHeader = () => {
                         </div>
                         <div className="info">
                           <span className="title">Office Address</span>
-                          <h5>583 Main Street, USA</h5>
+                          <h5>Auroville</h5>
                         </div>
                       </div>
                     </div>
@@ -60,7 +60,7 @@ const DefaultHeader = () => {
                         <div className="info">
                           <span className="title">Drop a Line</span>
                           <h5>
-                            <a href="tel:+000(123)45688">+000 (123) 456 88</a>
+                            <a href="tel:+000(123)45688">+000 (123) 456 78</a>
                           </h5>
                         </div>
                       </div>
@@ -130,10 +130,10 @@ const DefaultHeader = () => {
             {/*====== Nav Right Item ======*/}
             <div className="nav-right-item">
               <div className="lang-dropdown">
-                <select className="wide">
+                {/* <select className="wide">
                   <option value="English">English</option>
                   <option value="French">French</option>
-                </select>
+                </select> */}
               </div>
               <div className="menu-button d-xl-block d-none">
                 <Link legacyBehavior href="/contact">
