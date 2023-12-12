@@ -27,8 +27,8 @@ const Contact = () => {
                   <img src="assets/images/icon/icon-1.png" alt="icon" />
                 </div>
                 <div className="info">
-                  <span className="title">Office Location</span>
-                  <p>55 Main Street, 2nd Floor New York City</p>
+                  <span className="title">Our Location</span>
+                  <p>Auroville</p>
                 </div>
               </div>
             </div>
@@ -45,9 +45,6 @@ const Contact = () => {
                       supportinfo@gmail.com
                     </a>
                   </p>
-                  <p>
-                    <a href="mailto:traveladventure.net">traveladventure.net</a>
-                  </p>
                 </div>
               </div>
             </div>
@@ -61,9 +58,6 @@ const Contact = () => {
                   <span className="title">Hotline</span>
                   <p>
                     <a href="tel:+000(123)45688">+000 (123) 456 88</a>
-                  </p>
-                  <p>
-                    <a href="tel:+8596320">+859 63 20</a>
                   </p>
                 </div>
               </div>

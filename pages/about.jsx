@@ -7,7 +7,7 @@ import Slider from "react-slick";
 const About = () => {
   return (
     <Layout extraClass={"pt-160"}>
-      <PageBanner pageTitle={"About Us"} />
+      <PageBanner pageTitle={"Story"} />
       {/*====== Start Features Section ======*/}
       <section className="features-section pt-100 pb-50">
         <div className="container">
