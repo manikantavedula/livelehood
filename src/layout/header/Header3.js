@@ -4,11 +4,11 @@ const Header3 = () => {
   return (
     <header className="header-area header-three">
       {/*====== Header Top Bar ======*/}
-      <div className="header-top-bar pt-30 pb-30">
+      {/* <div className="header-top-bar pt-30 pb-30">
         <div className="container-fluid">
           <div className="row">
             <div className="col-xl-3 d-none d-xl-block">
-              {/*====== Site Branding ======*/}
+              
               <div className="site-brading">
                 <Link legacyBehavior href="/index-3">
                   <a className="brand-logo">
@@ -18,7 +18,7 @@ const Header3 = () => {
               </div>
             </div>
             <div className="col-xl-9 col-lg-12">
-              {/*====== Information Wrapper ======*/}
+              
               <div className="information-wrapper">
                 <div className="row">
                   <div className="col-lg-4">
@@ -71,9 +71,12 @@ const Header3 = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/*====== Header Navigation ======*/}
-      <div className="header-navigation navigation-white">
+      <div
+        className="header-navigation navigation-white"
+        style={{ marginTop: "20px" }}
+      >
         <div className="nav-overlay" />
         <div className="container-fluid">
           <div className="primary-menu black-bg">
@@ -81,11 +84,7 @@ const Header3 = () => {
             <div className="site-brading d-block d-xl-none">
               <Link legacyBehavior href="/index-3">
                 <a className="brand-logo">
-                  <img
-                    src="assets/images/logo/logo-white.png"
-                    style={{ border: "1px solid #fff" }}
-                    alt="Logo"
-                  />
+                  <img src="assets/images/logo/logo-white.png" alt="Logo" />
                 </a>
               </Link>
             </div>

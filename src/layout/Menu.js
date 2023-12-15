@@ -23,6 +23,16 @@ const DeskTopMenu = () => {
       <nav className="main-menu d-none d-xl-block">
         <ul>
           <li className="menu-item">
+            <a className="brand-logo" style={{ padding: "7px 0 7px" }}>
+              <img
+                src="assets/images/logo/logo-black.png"
+                alt="Logo"
+                width={100}
+              />
+            </a>
+          </li>
+
+          <li className="menu-item">
             {/* <a href="/">
               Home
               <span className="dd-trigger">
@@ -30,7 +40,7 @@ const DeskTopMenu = () => {
               </span>
             </a> */}
 
-            <Link href="/">Home</Link>
+            <Link href="/">Habitat</Link>
 
             {/* <ul className="sub-menu">
               <li>
@@ -45,20 +55,23 @@ const DeskTopMenu = () => {
             </ul> */}
           </li>
           <li className="menu-item">
-            <Link href="/about">Story</Link>
+            <Link href="/community">LiveLEhooders</Link>
           </li>
           <li className="menu-item">
-            <Link href="/community">Community</Link>
+            <Link href="/about">Lifestyle</Link>
           </li>
           <li className="menu-item">
-            <Link href="/events">Events</Link>
+            <Link href="/about">LiveLEhood</Link>
           </li>
           <li className="menu-item">
-            <Link href="/gallery">Gallery</Link>
+            <Link href="/events">WEE</Link>
           </li>
           <li className="menu-item">
+            <Link href="/gallery">HEAL</Link>
+          </li>
+          {/* <li className="menu-item">
             <Link href="/contact">Contact</Link>
-          </li>
+          </li> */}
           {/* <li className="menu-item has-children">
             <a href="#">
               Tours
