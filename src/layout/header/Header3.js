@@ -73,13 +73,13 @@ const Header3 = () => {
         </div>
       </div> */}
       {/*====== Header Navigation ======*/}
-      <div
-        className="header-navigation navigation-white"
-        style={{ marginTop: "20px" }}
-      >
+      <div className="header-navigation navigation-white">
         <div className="nav-overlay" />
         <div className="container-fluid">
-          <div className="primary-menu black-bg">
+          <div
+            className="primary-menu black-bg"
+            style={{ border: "1px solid #e5af54" }}
+          >
             {/*====== Site Branding ======*/}
             <div className="site-brading d-block d-xl-none">
               <Link legacyBehavior href="/index-3">

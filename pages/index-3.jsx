@@ -19,6 +19,11 @@ const Index3 = () => {
       {/*====== End Hero Section ======*/}
       {/*====== Start Features Section ======*/}
       <section className="features-section pt-100 pb-50">
+        <div className="shape">
+          <span>
+            <img src="assets/images/hero/map.png" alt />
+          </span>
+        </div>
         <div className="container">
           <div className="row align-items-xl-center">
             <div className="col-xl-5">
