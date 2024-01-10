@@ -188,6 +188,10 @@ h1 {
   color: #e5af54;
 }
 
+.hero-wrapper-45 .slick-track {
+  height: 100vh;
+}
+
 .reviews-wrapper .reviews-inner-box .rating-value .rate-score,
 .black-bg .sub-title,
 .footer-newsletter-widget .footer-content form label,
@@ -1566,15 +1570,32 @@ button {
 .navigation-white.header-navigation .navbar-toggler {
   border-color: rgba(255, 255, 255, 0.8);
 }
+
+.fixedNav {
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+  width: 100%;
+}
+
+.fixedNav .container-fluid .primary-menu.black-bg {
+  background: #0d282100;
+}
+
 /* Header Sticky */
 .sticky {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 999;
-  -webkit-animation: sticky 1.2s;
-  animation: sticky 1.2s;
+  z-index: 999999;
+  /* -webkit-animation: sticky 1.2s;
+  animation: sticky 1.2s; */
+}
+
+.sticky .primary-menu {
+  background: #0d2821;
+  border: 1px solid #e5af54;
 }
 
 @-webkit-keyframes sticky {
@@ -1592,6 +1613,11 @@ button {
   100% {
     top: 0;
   }
+}
+
+.sticky .container-fluid .primary-menu.black-bg {
+  border: 1px solid #e5af54;
+  background: #0d2821;
 }
 /*---==================
     03. Hero css 
@@ -1869,7 +1895,7 @@ button {
 }
 .hero-wrapper-four .shape {
   position: absolute;
-  top: 0;
+  top: 100vh;
   left: 0;
 }
 .hero-wrapper-four .hero-content span.sub-title {
@@ -1885,6 +1911,19 @@ button {
   border-left: 3px solid #e5af54;
   margin-bottom: 55px;
 }
+
+.hero-wrapper-34 .hero-content p {
+  font-size: 18px;
+  line-height: 28px;
+  padding-left: 25px;
+  border-left: 3px solid #e5af54;
+  margin-bottom: 55px;
+}
+
+.hero-wrapper-34 {
+  z-index: 999;
+}
+
 .hero-wrapper-four .hero-content .hero-search-form {
   position: relative;
   z-index: 1;

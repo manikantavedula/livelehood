@@ -18,7 +18,7 @@ export default class Home3Slider extends Component {
   render() {
     return (
       <section className="hero-section">
-        <div className="hero-wrapper-three">
+        <div className="hero-wrapper-three hero-wrapper-34 hero-wrapper-45">
           <div className="hero-arrows">
             <div className="prev slick-arrow" onClick={this.previous}>
               <i className="far fa-arrow-left" />
@@ -37,8 +37,7 @@ export default class Home3Slider extends Component {
               <div
                 className="image-layer bg_cover"
                 style={{
-                  backgroundImage:
-                    "url(assets/images/hero/hero-three_img-1.jpg)",
+                  backgroundImage: "url(assets/images/hero/DSC_0791.JPG)",
                 }}
               />
               <div className="container">
@@ -46,12 +45,19 @@ export default class Home3Slider extends Component {
                   <div className="col-xl-7">
                     {/*=== Hero Content ===*/}
                     <div className="hero-content text-white">
-                      <span className="sub-title">
-                        Welcome to LiveLEhood Habitat
-                      </span>
-                      <h1 data-animation="fadeInDown" data-delay=".4s">
-                        Tour Travel &amp; Adventure
-                      </h1>
+                      <h3 className="wow fadeInDown mb-30" data-wow-delay=".5s">
+                        A Co-ExIStic{" "}
+                        <span style={{ color: "#e5af54" }}>
+                          (Collaborative | Experimental | Innovative |
+                          Sustainable | Holistic)
+                        </span>{" "}
+                        Village for a Thriving Lifestyle & LiveLEhood
+                      </h3>
+                      <p className="wow fadeInUp" data-wow-delay=".6s">
+                        Harmony in Diversity: A Co-Existic Village for a
+                        Thriving Lifestyle and Livelihood
+                      </p>
+
                       <div
                         className="hero-button"
                         data-animation="fadeInRight"
@@ -80,8 +86,7 @@ export default class Home3Slider extends Component {
               <div
                 className="image-layer bg_cover"
                 style={{
-                  backgroundImage:
-                    "url(assets/images/hero/hero-three_img-2.jpg)",
+                  backgroundImage: "url(assets/images/hero/DSC_0832.JPG)",
                 }}
               />
               <div className="container">
@@ -89,12 +94,19 @@ export default class Home3Slider extends Component {
                   <div className="col-xl-7">
                     {/*=== Hero Content ===*/}
                     <div className="hero-content text-white">
-                      <span className="sub-title">
-                        Welcome to LiveLEhood Habitat
-                      </span>
-                      <h1 data-animation="fadeInDown" data-delay=".4s">
-                        Tour Travel &amp; Camping
-                      </h1>
+                      <h3 className="wow fadeInDown mb-30" data-wow-delay=".5s">
+                        A Co-ExIStic{" "}
+                        <span style={{ color: "#e5af54" }}>
+                          (Collaborative | Experimental | Innovative |
+                          Sustainable | Holistic)
+                        </span>{" "}
+                        Village for a Thriving Lifestyle & LiveLEhood
+                      </h3>
+                      <p className="wow fadeInUp" data-wow-delay=".6s">
+                        Harmony in Diversity: A Co-Existic Village for a
+                        Thriving Lifestyle and Livelihood
+                      </p>
+
                       <div
                         className="hero-button"
                         data-animation="fadeInRight"
@@ -132,12 +144,19 @@ export default class Home3Slider extends Component {
                   <div className="col-xl-7">
                     {/*=== Hero Content ===*/}
                     <div className="hero-content text-white">
-                      <span className="sub-title">
-                        Welcome to LiveLEhood Habitat
-                      </span>
-                      <h1 data-animation="fadeInDown" data-delay=".4s">
-                        Tour Travel &amp; Adventure
-                      </h1>
+                      <h3 className="wow fadeInDown mb-30" data-wow-delay=".5s">
+                        A Co-ExIStic{" "}
+                        <span style={{ color: "#e5af54" }}>
+                          (Collaborative | Experimental | Innovative |
+                          Sustainable | Holistic)
+                        </span>{" "}
+                        Village for a Thriving Lifestyle & LiveLEhood
+                      </h3>
+                      <p className="wow fadeInUp" data-wow-delay=".6s">
+                        Harmony in Diversity: A Co-Existic Village for a
+                        Thriving Lifestyle and Livelihood
+                      </p>
+
                       <div
                         className="hero-button"
                         data-animation="fadeInRight"

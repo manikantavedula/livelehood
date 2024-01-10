@@ -23,13 +23,17 @@ const DeskTopMenu = () => {
       <nav className="main-menu d-none d-xl-block">
         <ul>
           <li className="menu-item">
-            <a className="brand-logo" style={{ padding: "7px 0 7px" }}>
+            <Link
+              href="/"
+              className="brand-logo"
+              style={{ padding: "7px 0 7px" }}
+            >
               <img
                 src="assets/images/logo/logo-black.png"
                 alt="Logo"
                 width={100}
               />
-            </a>
+            </Link>
           </li>
 
           <li className="menu-item">
@@ -40,7 +44,7 @@ const DeskTopMenu = () => {
               </span>
             </a> */}
 
-            <Link href="/">Habitat</Link>
+            <Link href="/habitat">Habitat</Link>
 
             {/* <ul className="sub-menu">
               <li>
@@ -58,16 +62,16 @@ const DeskTopMenu = () => {
             <Link href="/community">LiveLEhooders</Link>
           </li>
           <li className="menu-item">
-            <Link href="/about">Lifestyle</Link>
+            <Link href="/lifestyle">Lifestyle</Link>
           </li>
           <li className="menu-item">
-            <Link href="/about">LiveLEhood</Link>
+            <Link href="/livelehood">LiveLEhood</Link>
           </li>
           <li className="menu-item">
-            <Link href="/events">WEE</Link>
+            <Link href="/wee">WEE</Link>
           </li>
           <li className="menu-item">
-            <Link href="/gallery">HEAL</Link>
+            <Link href="/heal">HEAL</Link>
           </li>
           {/* <li className="menu-item">
             <Link href="/contact">Contact</Link>
@@ -174,6 +178,44 @@ const MobileMenu = () => {
   return (
     <nav className="main-menu d-block d-xl-none">
       <ul>
+        <li className="menu-item">
+          {/* <a href="/">
+              Home
+              <span className="dd-trigger">
+                <i className="far fa-angle-down" />
+              </span>
+            </a> */}
+
+          <Link href="/">Habitat</Link>
+
+          {/* <ul className="sub-menu">
+              <li>
+                <Link href="/index-1">Tours</Link>
+              </li>
+              <li>
+                <Link href="/index-2">Tours</Link>
+              </li>
+              <li>
+                <Link href="/index-3">Tours</Link>
+              </li>
+            </ul> */}
+        </li>
+        <li className="menu-item">
+          <Link href="/community">LiveLEhooders</Link>
+        </li>
+        <li className="menu-item">
+          <Link href="/about">Lifestyle</Link>
+        </li>
+        <li className="menu-item">
+          <Link href="/about">LiveLEhood</Link>
+        </li>
+        <li className="menu-item">
+          <Link href="/events">WEE</Link>
+        </li>
+        <li className="menu-item">
+          <Link href="/gallery">HEAL</Link>
+        </li>
+        {/*           
         <li className="menu-item has-children">
           <a href="/">
             Home
@@ -208,7 +250,7 @@ const MobileMenu = () => {
         </li>
         <li className="menu-item">
           <Link href="/contact">Contact</Link>
-        </li>
+        </li> */}
         {/* <li className="menu-item has-children">
             <a href="#">
               Tours

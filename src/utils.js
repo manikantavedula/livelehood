@@ -6,7 +6,7 @@ export const stickyNav = () => {
     for (let i = 0; i < sticky.length; i++) {
       const stick = sticky[i];
       if (stick) {
-        if (offset > 10) {
+        if (offset > 0) {
           stick.classList.add("sticky");
         } else {
           stick.classList.remove("sticky");

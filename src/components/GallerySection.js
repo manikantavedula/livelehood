@@ -2,7 +2,7 @@ import Slider from "react-slick";
 import { sliderActive5Item } from "../sliderProps";
 const GallerySection = () => {
   return (
-    <section className="gallery-section mbm-150">
+    <section className="gallery-section pt-40 pb-30">
       <div className="container-fluid">
         <Slider
           {...sliderActive5Item}

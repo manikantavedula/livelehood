@@ -6,11 +6,9 @@ const Footer = ({ bg, extraClass }) => {
       }`}
     >
       <div className="container">
-        {/*=== Footer CTA ===*/}
-        <div className="footer-cta pt-80 pb-40">
+        {/* <div className="footer-cta pt-80 pb-40">
           <div className="row">
             <div className="col-lg-6">
-              {/*=== Single CTA Item ===*/}
               <div className="single-cta-item pr-lg-60 mb-40">
                 <div className="icon">
                   <img src="assets/images/icon/support.png" alt="Icon" />
@@ -26,7 +24,6 @@ const Footer = ({ bg, extraClass }) => {
               </div>
             </div>
             <div className="col-lg-6">
-              {/*=== Single CTA Item ===*/}
               <div className="single-cta-item pl-lg-60 mb-40">
                 <div className="icon">
                   <img src="assets/images/icon/travel.png" alt="Icon" />
@@ -42,12 +39,82 @@ const Footer = ({ bg, extraClass }) => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/*=== Footer Widget ===*/}
-        <div className="footer-widget-area pt-75 pb-30">
+        <div className="footer-top pt-40 wow fadeInUp">
+          <div className="row">
+            <div className="col-lg-3 col-sm-6">
+              {/*=== Single Info Item ===*/}
+              <div className="single-info-item mb-40">
+                <div className="icon">
+                  <i className="far fa-map-marker-alt" />
+                </div>
+                <div className="info">
+                  <span className="title">Location</span>
+                  <p>Auroville</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6">
+              {/*=== Single Info Item ===*/}
+              <div className="single-info-item mb-40">
+                <div className="icon">
+                  <i className="far fa-envelope-open" />
+                </div>
+                <div className="info">
+                  <span className="title">Email</span>
+                  <p>
+                    <a href="mailto:support@gmail.com">support@gmail.com</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6">
+              {/*=== Single Info Item ===*/}
+              <div className="single-info-item mb-40">
+                <div className="icon">
+                  <i className="far fa-map-marker-alt" />
+                </div>
+                <div className="info">
+                  <span className="title">Contact</span>
+                  <p>
+                    <a href="tel:+000(123)456898">+000 (123) 456 789</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6">
+              {/*=== Social Box ===*/}
+              <div className="social-box mb-40 float-lg-end">
+                <ul className="social-link">
+                  {/* <li>
+                    <a href="#">
+                      <i className="fab fa-facebook-f" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i className="fab fa-twitter" />
+                    </a>
+                  </li> */}
+                  <li>
+                    <a href="#">
+                      <i className="fab fa-instagram" />
+                    </a>
+                  </li>
+                  {/* <li>
+                    <a href="#">
+                      <i className="fab fa-linkedin-in" />
+                    </a>
+                  </li> */}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <div className="footer-widget-area pt-75 pb-30">
           <div className="row">
             <div className="col-lg-3 col-md-6">
-              {/*=== Footer Widget ===*/}
               <div className="footer-widget about-company-widget mb-40">
                 <h4 className="widget-title">About</h4>
                 <div className="footer-content">
@@ -59,8 +126,8 @@ const Footer = ({ bg, extraClass }) => {
                     <img
                       src={
                         bg === "gray"
-                          ? "assets/images/logo/logo-black.png"
-                          : "assets/images/logo/logo-white.png"
+                          ? "assets/images/logo/logo-white434.png"
+                          : "assets/images/logo/logo-white434.png"
                       }
                       style={{ border: "1px solid #fff" }}
                       alt="Site Logo"
@@ -70,7 +137,6 @@ const Footer = ({ bg, extraClass }) => {
               </div>
             </div>
             <div className="col-lg-5 col-md-6">
-              {/*=== Footer Widget ===*/}
               <div className="footer-widget service-nav-widget mb-40 pl-lg-70">
                 <h4 className="widget-title">Services</h4>
                 <div className="footer-content">
@@ -109,7 +175,6 @@ const Footer = ({ bg, extraClass }) => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
-              {/*=== Footer Widget ===*/}
               <div className="footer-widget footer-newsletter-widget mb-40 pl-lg-100">
                 <h4 className="widget-title">Newsletter</h4>
                 <div className="footer-content">
@@ -135,11 +200,11 @@ const Footer = ({ bg, extraClass }) => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/*=== Footer Copyright ===*/}
-        <div className="footer-copyright">
+        <div className="footer-copyright text-center">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-12">
               {/*=== Footer Text ===*/}
               <div className="footer-text">
                 <p>
@@ -149,8 +214,7 @@ const Footer = ({ bg, extraClass }) => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-6">
-              {/*=== Footer Nav ===*/}
+            {/* <div className="col-lg-6">
               <div className="footer-nav float-lg-end">
                 <ul>
                   <li>
@@ -164,7 +228,7 @@ const Footer = ({ bg, extraClass }) => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

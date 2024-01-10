@@ -1,24 +1,35 @@
+import Home3Slider from "@/src/components/sliders/Home3";
 import Link from "next/link";
 import Menu from "../Menu";
+
+import { home1Slider } from "@/src/sliderProps";
+import Slider from "react-slick";
+
 const Header3 = () => {
   return (
-    <header className="header-area header-three">
+    <header
+      className="header-area header-three header-slider-34 position-fixed"
+      style={{ zIndex: "99999", width: "100%" }}
+    >
+      {/* <Home3Slider /> */}
+
       {/*====== Header Top Bar ======*/}
       {/* <div className="header-top-bar pt-30 pb-30">
         <div className="container-fluid">
           <div className="row">
             <div className="col-xl-3 d-none d-xl-block">
-              
               <div className="site-brading">
                 <Link legacyBehavior href="/index-3">
                   <a className="brand-logo">
-                    <img src="assets/images/logo/logo-black.png" alt="Logo" />
+                    <img
+                      src="assets/images/logo/logo-black123.png"
+                      alt="Logo"
+                    />
                   </a>
                 </Link>
               </div>
             </div>
             <div className="col-xl-9 col-lg-12">
-              
               <div className="information-wrapper">
                 <div className="row">
                   <div className="col-lg-4">
@@ -76,15 +87,16 @@ const Header3 = () => {
       <div className="header-navigation navigation-white">
         <div className="nav-overlay" />
         <div className="container-fluid">
-          <div
-            className="primary-menu black-bg"
-            style={{ border: "1px solid #e5af54" }}
-          >
+          <div className="primary-menu black-bg">
             {/*====== Site Branding ======*/}
             <div className="site-brading d-block d-xl-none">
               <Link legacyBehavior href="/index-3">
                 <a className="brand-logo">
-                  <img src="assets/images/logo/logo-white.png" alt="Logo" />
+                  <img
+                    src="assets/images/logo/logo-white.png"
+                    alt="Logo"
+                    width={"100"}
+                  />
                 </a>
               </Link>
             </div>
@@ -97,12 +109,13 @@ const Header3 = () => {
                     <img
                       src="assets/images/logo/logo-black.png"
                       alt="Site Logo"
+                      width={"100"}
                     />
                   </a>
                 </Link>
               </div>
               {/*=== Nav Search ===*/}
-              <div className="nav-search mb-30 d-block d-xl-none ">
+              <div className="nav-search mb-30 d-block d-xl-none d-none">
                 <form>
                   <div className="form_group">
                     <input
@@ -121,26 +134,26 @@ const Header3 = () => {
               {/*====== Main Menu ======*/}
               <Menu />
               {/*====== Menu Button ======*/}
-              <div className="menu-button mt-40 d-xl-none">
+              {/* <div className="menu-button mt-40 d-xl-none">
                 <Link legacyBehavior href="/contact">
                   <a className="main-btn secondary-btn">
                     Book Now
                     <i className="fas fa-paper-plane" />
                   </a>
                 </Link>
-              </div>
+              </div> */}
             </div>
             {/*====== Nav Right Item ======*/}
             <div className="nav-right-item">
               <div className="lang-dropdown"></div>
-              <div className="menu-button d-xl-block d-none">
+              {/* <div className="menu-button d-xl-block d-none">
                 <Link legacyBehavior href="/contact">
                   <a className="main-btn primary-btn">
                     Book Now
                     <i className="fas fa-paper-plane" />
                   </a>
                 </Link>
-              </div>
+              </div> */}
               <div className="navbar-toggler">
                 <span />
                 <span />

@@ -99,6 +99,35 @@ export const sliderActive4Item = {
     },
   ],
 };
+export const sliderActive2Item = {
+  dots: false,
+  arrows: false,
+  infinite: true,
+  speed: 800,
+  autoplay: true,
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+  ],
+};
 export const sliderActive3Item = {
   dots: false,
   arrows: false,
@@ -163,7 +192,7 @@ export const sliderActive5Item = {
   infinite: true,
   speed: 800,
   autoplay: true,
-  slidesToShow: 5,
+  slidesToShow: 3,
   slidesToScroll: 1,
   responsive: [
     {

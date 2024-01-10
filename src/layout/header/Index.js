@@ -6,6 +6,7 @@ import Header1 from "./Header1";
 import Header2 from "./Header2";
 import Header3 from "./Header3";
 import Header4 from "./Header4";
+import Header5 from "./Header5";
 const Header = ({ header }) => {
   useEffect(() => {
     stickyNav();
@@ -42,6 +43,8 @@ const Header = ({ header }) => {
       return <Header3 />;
     case 4:
       return <Header4 />;
+    case 5:
+      return <Header5 />;
     default:
       return <DefaultHeader />;
   }
