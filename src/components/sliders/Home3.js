@@ -46,16 +46,19 @@ export default class Home3Slider extends Component {
                     {/*=== Hero Content ===*/}
                     <div className="hero-content text-white">
                       <h3 className="wow fadeInDown mb-30" data-wow-delay=".5s">
-                        A Co-ExIStic{" "}
                         <span style={{ color: "#e5af54" }}>
-                          (Collaborative | Experimental | Innovative |
-                          Sustainable | Holistic)
+                          Harmony in Diversity:
                         </span>{" "}
-                        Village for a Thriving Lifestyle & LiveLEhood
+                        A Co-Existic Village for a Thriving Lifestyle and
+                        Livelihood
                       </h3>
-                      <p className="wow fadeInUp" data-wow-delay=".6s">
-                        Harmony in Diversity: A Co-Existic Village for a
-                        Thriving Lifestyle and Livelihood
+                      <p
+                        className="wow fadeInUp"
+                        style={{ background: "#0b2823" }}
+                        data-wow-delay=".6s"
+                      >
+                        Collaborative | Experimental | Innovative | Sustainable
+                        | Holistic
                       </p>
 
                       <div
@@ -95,16 +98,19 @@ export default class Home3Slider extends Component {
                     {/*=== Hero Content ===*/}
                     <div className="hero-content text-white">
                       <h3 className="wow fadeInDown mb-30" data-wow-delay=".5s">
-                        A Co-ExIStic{" "}
                         <span style={{ color: "#e5af54" }}>
-                          (Collaborative | Experimental | Innovative |
-                          Sustainable | Holistic)
+                          Harmony in Diversity:
                         </span>{" "}
-                        Village for a Thriving Lifestyle & LiveLEhood
+                        A Co-Existic Village for a Thriving Lifestyle and
+                        Livelihood
                       </h3>
-                      <p className="wow fadeInUp" data-wow-delay=".6s">
-                        Harmony in Diversity: A Co-Existic Village for a
-                        Thriving Lifestyle and Livelihood
+                      <p
+                        className="wow fadeInUp"
+                        style={{ background: "#0b2823" }}
+                        data-wow-delay=".6s"
+                      >
+                        Collaborative | Experimental | Innovative | Sustainable
+                        | Holistic
                       </p>
 
                       <div

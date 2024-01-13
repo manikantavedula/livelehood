@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Fragment, useState } from "react";
 import SearchModal from "./SearchModal";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Menu = () => {
   return (
@@ -23,7 +24,7 @@ const DeskTopMenu = () => {
       <nav className="main-menu d-none d-xl-block">
         <ul>
           <li className="menu-item">
-            <Link
+            {/* <Link
               href="/"
               className="brand-logo"
               style={{ padding: "7px 0 7px" }}
@@ -33,7 +34,18 @@ const DeskTopMenu = () => {
                 alt="Logo"
                 width={100}
               />
-            </Link>
+            </Link> */}
+            <AnchorLink
+              href="#logoanchor"
+              className="brand-logo"
+              style={{ padding: "7px 0 7px" }}
+            >
+              <img
+                src="assets/images/logo/logo-black.png"
+                alt="Logo"
+                width={100}
+              />
+            </AnchorLink>
           </li>
 
           <li className="menu-item">
@@ -44,7 +56,8 @@ const DeskTopMenu = () => {
               </span>
             </a> */}
 
-            <Link href="/habitat">Habitat</Link>
+            {/* <Link href="/habitat">Habitat</Link> */}
+            <AnchorLink href="#habitat">Habitat</AnchorLink>
 
             {/* <ul className="sub-menu">
               <li>
@@ -59,19 +72,32 @@ const DeskTopMenu = () => {
             </ul> */}
           </li>
           <li className="menu-item">
-            <Link href="/community">LiveLEhooders</Link>
+            {/* <Link href="/community">LiveLEhooders</Link> */}
+            <AnchorLink href="#community">LiveLEhooders</AnchorLink>
           </li>
           <li className="menu-item">
-            <Link href="/lifestyle">Lifestyle</Link>
+            {/* <Link href="/lifestyle">Lifestyle</Link> */}
+            <AnchorLink offset="100" href="#lifestyle">
+              Lifestyle
+            </AnchorLink>
           </li>
           <li className="menu-item">
-            <Link href="/livelehood">LiveLEhood</Link>
+            {/* <Link href="/livelehood">LiveLEhood</Link> */}
+            <AnchorLink offset="120" href="#livelehood">
+              LiveLEhood
+            </AnchorLink>
           </li>
           <li className="menu-item">
-            <Link href="/wee">WEE</Link>
+            {/* <Link href="/wee">WEE</Link> */}
+            <AnchorLink offset="100" href="#wee">
+              WEE
+            </AnchorLink>
           </li>
           <li className="menu-item">
-            <Link href="/heal">HEAL</Link>
+            {/* <Link href="/heal">HEAL</Link> */}
+            <AnchorLink offset="100" href="#heal">
+              HEAL
+            </AnchorLink>
           </li>
           {/* <li className="menu-item">
             <Link href="/contact">Contact</Link>
