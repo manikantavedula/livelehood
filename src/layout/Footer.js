@@ -51,11 +51,11 @@ const Footer = ({ bg, extraClass }) => {
                 </div>
                 <div className="info">
                   <span className="title">Location</span>
-                  <p>Auroville</p>
+                  <p>Kuilapalayam, Auroville</p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-4 col-sm-6">
               {/*=== Single Info Item ===*/}
               <div className="single-info-item mb-40">
                 <div className="icon">
@@ -64,7 +64,9 @@ const Footer = ({ bg, extraClass }) => {
                 <div className="info">
                   <span className="title">Email</span>
                   <p>
-                    <a href="mailto:support@gmail.com">support@gmail.com</a>
+                    <a href="mailto:livelehoodhabitat@gmail.com">
+                      livelehoodhabitat@gmail.com
+                    </a>
                   </p>
                 </div>
               </div>
@@ -78,12 +80,12 @@ const Footer = ({ bg, extraClass }) => {
                 <div className="info">
                   <span className="title">Contact</span>
                   <p>
-                    <a href="tel:+000(123)456898">+000 (123) 456 789</a>
+                    <a href="tel:+917829778299">+91 78297 78299</a>
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-2 col-sm-6">
               {/*=== Social Box ===*/}
               <div className="social-box mb-40 float-lg-end">
                 <ul className="social-link">

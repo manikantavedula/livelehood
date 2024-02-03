@@ -188,6 +188,62 @@ h1 {
   color: #e5af54;
 }
 
+.header-area.header-three.header-slider-34.header-five
+  .breakpoint-on
+  .nav-menu.menu-on {
+  background: #0d2821 !important;
+}
+
+.header-area.header-three.header-slider-34.header-five .main-menu ul li a {
+  color: #fff !important;
+  font-weight: 300;
+}
+
+.header-area.header-three.header-slider-34.header-five
+  .main-menu
+  ul
+  li
+  a:hover {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.header-area.header-three.header-slider-34.header-five
+  .main-menu
+  ul
+  li
+  a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 22px;
+  left: 0;
+  background-color: #e5af54;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.header-area.header-three.header-slider-34.header-five
+  .main-menu
+  ul
+  li
+  a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.header-area.header-three.header-slider-34.header-five
+  .main-menu
+  ul
+  li
+  a.brand-logo::after {
+  content: "";
+  height: 0;
+  background-color: transparent;
+}
+
 /* .hero-wrapper-45 .slick-track {
   height: 100vh;
 } */
@@ -1668,6 +1724,10 @@ button {
     padding-right: 15px;
   }
 }
+.hero-wrapper-three.hero-wrapper-34.hero-wrapper-45.hero-wrapper-five
+  .single-slider {
+  padding: 50px !important;
+}
 .hero-wrapper .single-slider {
   padding: 195px 0 90px;
 }
@@ -1962,6 +2022,14 @@ button {
 }
 .hero-wrapper-four .hero-image img {
   width: 100%;
+  height: 100%;
+  border-radius: 287.5px 287.5px 0px 0px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.hero-wrapper-three .hero-image img {
+  width: 70%;
   height: 100%;
   border-radius: 287.5px 287.5px 0px 0px;
   -o-object-fit: cover;
@@ -5676,11 +5744,14 @@ form.comment-form .form_control:focus {
 /* Contact Info Item */
 .contact-info-item {
   border-radius: 12px;
-  padding: 60px 70px 55px;
+  /* padding: 60px 70px 55px; */
+  padding: 60px 0;
+  font-family: "special_elite";
 }
 @media (max-width: 1199px) {
   .contact-info-item {
-    padding: 60px 30px 55px;
+    /* padding: 60px 30px 55px; */
+    padding: 60px 0;
   }
 }
 .contact-info-item .icon {
@@ -5849,6 +5920,8 @@ form.comment-form .form_control:focus {
 /* Slider Dots */
 ul.slick-dots {
   position: relative !important;
+  margin-top: -40px;
+  text-align: center;
 }
 ul.slick-dots li button {
   position: relative;

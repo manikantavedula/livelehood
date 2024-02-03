@@ -9,11 +9,11 @@ import {
 import Link from "next/link";
 import Slider from "react-slick";
 
-const Lifestyle = () => {
+const Initiatives = () => {
   return (
     <Layout header={5}>
-      <PageBanner pageTitle={"Lifestyle"} />
+      <PageBanner pageTitle={"Initiatives"} />
     </Layout>
   );
 };
-export default Lifestyle;
+export default Initiatives;

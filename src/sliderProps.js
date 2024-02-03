@@ -48,10 +48,10 @@ export const home2Slider = {
   ],
 };
 export const home3Slider = {
-  dots: false,
+  dots: true,
   arrows: false,
   infinite: true,
-  speed: 800,
+  speed: 500,
   fade: true,
   // appendArrows: sliderArrows,
   cssEase: "cubic-bezier(0.7, 0, 0.3, 1)",

@@ -24,7 +24,7 @@ const DeskTopMenu = () => {
       <nav className="main-menu d-none d-xl-block">
         <ul>
           <li className="menu-item">
-            {/* <Link
+            <Link
               href="/"
               className="brand-logo"
               style={{ padding: "7px 0 7px" }}
@@ -34,8 +34,8 @@ const DeskTopMenu = () => {
                 alt="Logo"
                 width={100}
               />
-            </Link> */}
-            <AnchorLink
+            </Link>
+            {/* <AnchorLink
               href="#logoanchor"
               className="brand-logo"
               style={{ padding: "7px 0 7px" }}
@@ -45,7 +45,7 @@ const DeskTopMenu = () => {
                 alt="Logo"
                 width={100}
               />
-            </AnchorLink>
+            </AnchorLink> */}
           </li>
 
           <li className="menu-item">
@@ -56,8 +56,8 @@ const DeskTopMenu = () => {
               </span>
             </a> */}
 
-            {/* <Link href="/habitat">Habitat</Link> */}
-            <AnchorLink href="#habitat">Habitat</AnchorLink>
+            <Link href="/habitat">Habitat</Link>
+            {/* <AnchorLink href="#habitat">Habitat</AnchorLink> */}
 
             {/* <ul className="sub-menu">
               <li>
@@ -72,33 +72,33 @@ const DeskTopMenu = () => {
             </ul> */}
           </li>
           <li className="menu-item">
-            {/* <Link href="/community">LiveLEhooders</Link> */}
-            <AnchorLink href="#community">LiveLEhooders</AnchorLink>
+            <Link href="/livelehooders">LiveLEhooders</Link>
+            {/* <AnchorLink href="#community">LiveLEhooders</AnchorLink> */}
           </li>
           <li className="menu-item">
-            {/* <Link href="/lifestyle">Lifestyle</Link> */}
-            <AnchorLink offset="100" href="#lifestyle">
+            <Link href="/lifestyle">Lifestyle</Link>
+            {/* <AnchorLink offset="100" href="#lifestyle">
               Lifestyle
-            </AnchorLink>
+            </AnchorLink> */}
           </li>
           <li className="menu-item">
-            {/* <Link href="/livelehood">LiveLEhood</Link> */}
-            <AnchorLink offset="120" href="#livelehood">
-              LiveLEhood
-            </AnchorLink>
+            <Link href="/initiatives">Initiatives</Link>
+            {/* <AnchorLink offset="120" href="#livelehood">
+              Initiatives
+            </AnchorLink> */}
           </li>
           <li className="menu-item">
-            {/* <Link href="/wee">WEE</Link> */}
-            <AnchorLink offset="100" href="#wee">
-              WEE
-            </AnchorLink>
+            <Link href="/involve">Involve</Link>
+            {/* <AnchorLink offset="100" href="#wee">
+              Involve
+            </AnchorLink> */}
           </li>
-          <li className="menu-item">
-            {/* <Link href="/heal">HEAL</Link> */}
+          {/* <li className="menu-item">
+            <Link href="/heal">HEAL</Link>
             <AnchorLink offset="100" href="#heal">
               HEAL
             </AnchorLink>
-          </li>
+          </li> */}
           {/* <li className="menu-item">
             <Link href="/contact">Contact</Link>
           </li> */}

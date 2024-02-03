@@ -8,8 +8,13 @@ import Slider from "react-slick";
 const Header5 = () => {
   return (
     <header
-      className="header-area header-three header-slider-34 position-fixed"
-      style={{ zIndex: "99999", width: "100%" }}
+      className="header-area header-three header-slider-34 header-five position-fixed"
+      style={{
+        zIndex: "99999",
+        width: "100%",
+        background: "#e5af54",
+        paddingBottom: "20px",
+      }}
     >
       {/* <Home3Slider /> */}
 
@@ -86,7 +91,7 @@ const Header5 = () => {
       {/*====== Header Navigation ======*/}
       <div className="header-navigation navigation-white">
         <div className="nav-overlay" />
-        <div className="container-fluid">
+        <div className="container-fluid" style={{ padding: 0 }}>
           <div className="primary-menu">
             {/*====== Site Branding ======*/}
             <div className="site-brading d-block d-xl-none">
