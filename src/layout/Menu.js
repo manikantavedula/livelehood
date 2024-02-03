@@ -212,34 +212,63 @@ const MobileMenu = () => {
               </span>
             </a> */}
 
-          <Link href="/">Habitat</Link>
+          {/* <AnchorLink
+              href="#logoanchor"
+              className="brand-logo"
+              style={{ padding: "7px 0 7px" }}
+            >
+              <img
+                src="assets/images/logo/logo-black.png"
+                alt="Logo"
+                width={100}
+              />
+            </AnchorLink> */}
+        </li>
+
+        <li className="menu-item">
+          {/* <a href="/">
+    Home
+    <span className="dd-trigger">
+      <i className="far fa-angle-down" />
+    </span>
+  </a> */}
+
+          <Link href="/habitat">Habitat</Link>
+          {/* <AnchorLink href="#habitat">Habitat</AnchorLink> */}
 
           {/* <ul className="sub-menu">
-              <li>
-                <Link href="/index-1">Tours</Link>
-              </li>
-              <li>
-                <Link href="/index-2">Tours</Link>
-              </li>
-              <li>
-                <Link href="/index-3">Tours</Link>
-              </li>
-            </ul> */}
+    <li>
+      <Link href="/index-1">Tours</Link>
+    </li>
+    <li>
+      <Link href="/index-2">Tours</Link>
+    </li>
+    <li>
+      <Link href="/index-3">Tours</Link>
+    </li>
+  </ul> */}
         </li>
         <li className="menu-item">
-          <Link href="/community">LiveLEhooders</Link>
+          <Link href="/livelehooders">LiveLEhooders</Link>
+          {/* <AnchorLink href="#community">LiveLEhooders</AnchorLink> */}
         </li>
         <li className="menu-item">
-          <Link href="/about">Lifestyle</Link>
+          <Link href="/lifestyle">Lifestyle</Link>
+          {/* <AnchorLink offset="100" href="#lifestyle">
+    Lifestyle
+  </AnchorLink> */}
         </li>
         <li className="menu-item">
-          <Link href="/about">LiveLEhood</Link>
+          <Link href="/initiatives">Initiatives</Link>
+          {/* <AnchorLink offset="120" href="#livelehood">
+    Initiatives
+  </AnchorLink> */}
         </li>
         <li className="menu-item">
-          <Link href="/events">WEE</Link>
-        </li>
-        <li className="menu-item">
-          <Link href="/gallery">HEAL</Link>
+          <Link href="/involve">Involve</Link>
+          {/* <AnchorLink offset="100" href="#wee">
+    Involve
+  </AnchorLink> */}
         </li>
         {/*           
         <li className="menu-item has-children">

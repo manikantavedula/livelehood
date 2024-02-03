@@ -100,7 +100,10 @@ const Footer = ({ bg, extraClass }) => {
                     </a>
                   </li> */}
                   <li>
-                    <a href="#">
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/travellers_tribe__/"
+                    >
                       <i className="fab fa-instagram" />
                     </a>
                   </li>
