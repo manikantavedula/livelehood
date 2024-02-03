@@ -90,7 +90,7 @@ const Header3 = () => {
           <div className="primary-menu black-bg">
             {/*====== Site Branding ======*/}
             <div className="site-brading d-block d-xl-none">
-              <Link legacyBehavior href="/index-3">
+              <Link legacyBehavior href="/">
                 <a className="brand-logo">
                   <img
                     src="assets/images/logo/logo-white.png"
