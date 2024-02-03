@@ -72,13 +72,13 @@ export default class Home3Slider extends Component {
                         data-animation="fadeInRight"
                         data-delay=".6s"
                       >
-                        <Link legacyBehavior href="/about">
+                        <Link legacyBehavior href="/habitat">
                           <a className="main-btn secondary-btn">
                             Explore More
                             <i className="fas fa-paper-plane" />
                           </a>
                         </Link>
-                        <Link legacyBehavior href="/about">
+                        <Link legacyBehavior href="/livelehooders">
                           <a className="main-btn secondary-btn">
                             Learn More
                             <i className="fas fa-paper-plane" />
@@ -131,13 +131,13 @@ export default class Home3Slider extends Component {
                         data-animation="fadeInRight"
                         data-delay=".6s"
                       >
-                        <Link legacyBehavior href="/about">
-                          <a className="main-btn primary-btn">
+                        <Link legacyBehavior href="/habitat">
+                          <a className="main-btn secondary-btn">
                             Explore More
                             <i className="fas fa-paper-plane" />
                           </a>
                         </Link>
-                        <Link legacyBehavior href="/about">
+                        <Link legacyBehavior href="/livelehooders">
                           <a className="main-btn secondary-btn">
                             Learn More
                             <i className="fas fa-paper-plane" />
