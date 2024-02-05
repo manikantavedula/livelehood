@@ -27,7 +27,7 @@ const habitat = () => {
           </div>
           <div className="container">
             <div className="row align-items-center">
-              {/* <div className="col-xl-5 d-xl-block d-none">
+              <div className="col-xl-5 d-xl-block d-none">
                 <div
                   className="hero-image wow fadeInRight"
                   data-wow-delay=".4s"
@@ -37,154 +37,28 @@ const habitat = () => {
                     alt="hero image"
                   />
                 </div>
-              </div> */}
-
-              <div className="col-xl-6">
-                <div className="container">
-                  <div className="row">
-                    <div className="col-xl-12 d-xl-block d-none mb-20">
-                      <div
-                        className="wow fadeInRight"
-                        data-wow-delay=".4s"
-                        style={{
-                          backgroundImage:
-                            "url(assets/images/hero/hero-five-img-my.png)",
-                          height: "150px",
-                          backgroundPositionY: "center",
-                        }}
-                      ></div>
-                    </div>
-
-                    <div className="col-xl-12">
-                      <div className="hero-content">
-                        <span
-                          className="sub-title wow fadeInUp"
-                          data-wow-delay=".3s"
-                        >
-                          <span style={{ fontWeight: "bold" }}>About Us</span>
-                        </span>
-                        <h6 className="wow fadeInDown" data-wow-delay=".5s">
-                          LiveLEhood Habitat is a community-driven space
-                          endeavors to create a social and environmentally
-                          sustainable ecosystem.
-                          <br />
-                          <br />
-                          <span style={{ color: "#e5af54" }}>
-                            An alternative space that offers a collaborative and
-                            creative atmosphere for LiveLEhooders' to co-live/
-                            learn/earn.
-                          </span>
-                          <br />
-                          <br />
-                          We believe in growing together and to build the
-                          community through a holistic approach to life.
-                        </h6>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
 
-              <div className="col-xl-6">
-                <div className="container">
-                  <div className="row">
-                    <div className="col-xl-12">
-                      <section className="service-section-two black-bg pt-30 pb-30">
-                        <div className="container">
-                          <div className="row justify-content-center">
-                            <div className="col-xl-10">
-                              <div className="section-title text-center text-white wow fadeInDown mb-10">
-                                <span
-                                  className="sub-title"
-                                  style={{ fontWeight: "bold" }}
-                                >
-                                  Vision
-                                </span>
-                                <h6>
-                                  A collaborative & supportive ecosystem with a
-                                  Holistic Approach fostering a better Lifestyle
-                                  & LiveLEhood for LiveLEhooders
-                                </h6>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-
-                    <div className="col-xl-12">
-                      <section className="features-section gray-bg pt-30 pb-30">
-                        <div className="container">
-                          <div className="row text-center justify-content-center">
-                            <div className="col-lg-12">
-                              <div className="section-title mb-25 wow fadeInLeft">
-                                <span
-                                  className="sub-title sub-title-black"
-                                  style={{ fontWeight: "bold" }}
-                                >
-                                  Motto
-                                </span>
-                                <h6>
-                                  HEAL: <br /> Health | Environment | Learning
-                                </h6>
-                              </div>
-                            </div>
-                          </div>
-                          {/*=== Features Slider ===*/}
-                          <Slider
-                            {...sliderActive3Item}
-                            className="slider-active-5-item wow fadeInUp"
-                          >
-                            {/*=== Features Item ===*/}
-                            <div className="single-features-item-three">
-                              <div className="img-holder">
-                                <img
-                                  src="assets/images/features/feat-10.png"
-                                  alt="Features Image"
-                                />
-                              </div>
-                              <div
-                                className="content"
-                                style={{ background: "#0c241e" }}
-                              >
-                                <h6 style={{ color: "#fff" }}>Health</h6>
-                              </div>
-                            </div>
-                            {/*=== Features Item ===*/}
-                            <div className="single-features-item-three">
-                              <div className="img-holder">
-                                <img
-                                  src="assets/images/features/feat-11.png"
-                                  alt="Features Image"
-                                />
-                              </div>
-                              <div
-                                className="content"
-                                style={{ background: "#0c241e" }}
-                              >
-                                <h6 style={{ color: "#fff" }}>Environment</h6>
-                              </div>
-                            </div>
-                            {/*=== Features Item ===*/}
-                            <div className="single-features-item-three">
-                              <div className="img-holder">
-                                <img
-                                  src="assets/images/features/feat-12.png"
-                                  alt="Features Image"
-                                />
-                              </div>
-                              <div
-                                className="content"
-                                style={{ background: "#0c241e" }}
-                              >
-                                <h6 style={{ color: "#fff" }}>Learning</h6>
-                              </div>
-                            </div>
-                          </Slider>
-                        </div>
-                      </section>
-                    </div>
-                  </div>
+              <div className="col-xl-7">
+                <div className="hero-content">
+                  <span className="sub-title wow fadeInUp" data-wow-delay=".3s">
+                    <span style={{ fontWeight: "bold" }}>About Us</span>
+                  </span>
+                  <h6 className="wow fadeInDown" data-wow-delay=".5s">
+                    LiveLEhood Habitat is a community-driven space endeavors to
+                    create a social and environmentally sustainable ecosystem.
+                    <br />
+                    <br />
+                    <span style={{ color: "#e5af54" }}>
+                      An alternative space that offers a collaborative and
+                      creative atmosphere for LiveLEhooders' to live/
+                      learn/earn.
+                    </span>
+                    <br />
+                    <br />
+                    We believe in growing together and to build the community
+                    through a holistic approach to life.
+                  </h6>
                 </div>
               </div>
             </div>
@@ -203,7 +77,7 @@ const habitat = () => {
                 {/*=== We Content Box ===*/}
                 <div className="we-one_content-box">
                   <div className="section-title mb-30 wow fadeInUp">
-                    <span className="sub-title">Co-Live</span>
+                    <span className="sub-title">Live</span>
                     <h2>
                       A sustainable & affordable community{" "}
                       <span style={{ color: "#e5af54" }}>living spaces</span>{" "}
@@ -251,7 +125,7 @@ const habitat = () => {
             <div className="col-xl-7">
               {/*=== Section Title ===*/}
               <div className="section-title text-center mb-50">
-                <span className="sub-title">Co-Learn</span>
+                <span className="sub-title">Learn</span>
                 <h2>
                   A collaborative knowledge sharing platform promoting LifeLong
                   Learning{" "}
@@ -373,7 +247,7 @@ const habitat = () => {
                 <div className="we-content-box pl-lg-50 mb-10">
                   {/*=== Section Title ===*/}
                   <div className="section-title mb-30">
-                    <span className="sub-title">Co-Earn</span>
+                    <span className="sub-title">Earn</span>
                     <h4>
                       A collaborative Co-Work Habitat nurturing & promoting
                       Individuals, Entreprenuers & Entrepreneurship

@@ -55,16 +55,25 @@ export default class Home3Slider extends Component {
                         <span style={{ color: "#e5af54" }}>
                           Harmony in Diversity:
                         </span>{" "}
-                        A Co-Existic Village for a Thriving Lifestyle and
-                        Livelihood
+                        A Community Driven Co-Existic Village for a Thriving
+                        Lifestyle and Livelihood
                       </h3>
                       <p
-                        className="wow fadeInUp"
-                        style={{ background: "#0b2823" }}
+                        style={{
+                          background: "#0b2823",
+                          fontSize: "15px",
+                          marginBottom: "10px",
+                          fontFamily: "special_elite",
+                        }}
                         data-wow-delay=".6s"
                       >
-                        Collaborative | Experimental | Innovative | Sustainable
-                        | Holistic
+                        <span style={{ color: "#e5af54" }}>Co</span>
+                        llaborative |{" "}
+                        <span style={{ color: "#e5af54" }}>Ex</span>
+                        perimental | <span style={{ color: "#e5af54" }}>I</span>
+                        nnovative | <span style={{ color: "#e5af54" }}>S</span>
+                        ustainable | Holis
+                        <span style={{ color: "#e5af54" }}>tic</span>
                       </p>
 
                       <div
@@ -92,7 +101,7 @@ export default class Home3Slider extends Component {
             </div>
             {/*=== Single Slider ===*/}
 
-            <div className="single-slider">
+            {/* <div className="single-slider">
               <div
                 className="image-layer bg_cover"
                 style={{
@@ -108,7 +117,6 @@ export default class Home3Slider extends Component {
                   }}
                 >
                   <div className="col-xl-7">
-                    {/*=== Hero Content ===*/}
                     <div className="hero-content text-white">
                       <h3 className="wow fadeInDown mb-30" data-wow-delay=".5s">
                         <span style={{ color: "#e5af54" }}>
@@ -148,7 +156,7 @@ export default class Home3Slider extends Component {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/*=== Single Slider ===*/}
             <div className="single-slider">
@@ -173,7 +181,7 @@ export default class Home3Slider extends Component {
                       <span
                         className="sub-title wow fadeInUp"
                         data-wow-delay=".3s"
-                        style={{ fontFamily: "special_elite" }}
+                        style={{ fontFamily: "special_elite", width: "100%" }}
                       >
                         <span style={{ fontWeight: "bold" }}>
                           Welcome to LiveLEhood Habitat:{" "}
@@ -185,16 +193,38 @@ export default class Home3Slider extends Component {
 
                       <h6 className="wow fadeInDown mb-30" data-wow-delay=".5s">
                         Discover a life where sustainability meets innovation,
-                        and community thrives. <br /> LiveLEhood Habitat is not
-                        just a place; <br />
+                        and community thrives.
                         <br />
-                        it's a movement—
-                        <span style={{ color: "#e5af54" }}>
-                          a Co-ExIStic (Collaborative | Experimental |
-                          Innovative | Sustainable | Holistic)
-                        </span>{" "}
-                        village dedicated to redefining the way we live, work,
-                        and connect with the world around us.
+                        <br />
+                        LiveLEhood Habitat is not just a place;
+                        <br />
+                        <br />
+                        <span style={{ width: "100%" }}>
+                          it's a movement —{" "}
+                          <span style={{ color: "#e5af54" }}>a Co-ExIStic</span>
+                          &nbsp; village
+                          <p
+                            style={{
+                              background: "#0b2823",
+                              fontSize: "15px",
+                              marginBottom: "10px",
+                              fontWeight: 300,
+                            }}
+                            data-wow-delay=".6s"
+                          >
+                            <span style={{ color: "#e5af54" }}>Co</span>
+                            llaborative |{" "}
+                            <span style={{ color: "#e5af54" }}>Ex</span>
+                            perimental |{" "}
+                            <span style={{ color: "#e5af54" }}>I</span>nnovative
+                            | <span style={{ color: "#e5af54" }}>S</span>
+                            ustainable | Holis
+                            <span style={{ color: "#e5af54" }}>tic</span>
+                          </p>
+                        </span>
+                        <br />
+                        dedicated to redefining the way we live, work, and
+                        connect with the world around us.
                       </h6>
                     </div>
                   </div>

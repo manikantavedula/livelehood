@@ -151,14 +151,20 @@ const Header5 = () => {
             {/*====== Nav Right Item ======*/}
             <div className="nav-right-item">
               <div className="lang-dropdown"></div>
-              {/* <div className="menu-button d-xl-block d-none">
+              <div className="menu-button d-xl-block d-none">
                 <Link legacyBehavior href="/contact">
-                  <a className="main-btn primary-btn">
-                    Book Now
+                  <a
+                    className="main-btn primary-btn"
+                    style={{
+                      background: "#0d2821",
+                      fontFamily: "special_elite",
+                    }}
+                  >
+                    Join Us
                     <i className="fas fa-paper-plane" />
                   </a>
                 </Link>
-              </div> */}
+              </div>
               <div className="navbar-toggler">
                 <span />
                 <span />
